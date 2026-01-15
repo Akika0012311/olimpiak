@@ -1,3 +1,4 @@
 # olimpiak
 ## GitHub proba
-## TRÓNOK HARCA
+## letöltés
+## feltöltés
