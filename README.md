@@ -1,4 +1,4 @@
 # olimpiak
 ## GitHub
 ## Készítő: Komáromi Ákos Bendegúz
-## ostály: 9/A
+## ostály: 9/A csop1
