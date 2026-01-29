@@ -23,6 +23,17 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#push-me-btn{
+    border: 3px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    color: rgb(92, 92, 92);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    width: 8vw;
+    height: 5vh;
+}
+
 #loreLink{
     padding: 3px;
     width: 20vw;
@@ -32,11 +43,6 @@
     background-color: white;
     text-decoration: none;
     box-shadow: 3px 3px 10px;
-}
-
-#loreLink:hover{
-    transition: 0.3s;
-    transform: scale(1.02);
 }
 
 img{
@@ -55,4 +61,16 @@ img:not(:hover){
     transition: 0.4s;
     transform: scale(1);
     box-shadow: 3px 3px 20px;
+}
+
+#push-me-btn:hover{
+    transition: 0.4s;
+    transform: scale(1.03);
+    box-shadow: 10px 10px 20px;
+}
+
+#push-me-btn:not(:hover){
+    transition: 0.4s;
+    transform: scale(1);
+    box-shadow: 5px 5px 20px;
 }
