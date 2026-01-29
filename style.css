@@ -17,6 +17,12 @@
     justify-content: center;
 }
 
+#link-text{
+    color: rgb(73, 73, 73);
+    font-size: 1.3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #loreLink{
     padding: 3px;
     width: 20vw;
