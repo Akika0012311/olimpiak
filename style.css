@@ -1,13 +1,15 @@
 #siteTitle{
     text-align: center;
     color: rgb(92, 92, 92);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
 }
 
 #siteTitleDiv{
     border: 5px solid rgb(161, 161, 161);
     border-radius: 15px;
-    width: 20vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     background-color: white;
     box-shadow: 10px 10px 25px;
 }
@@ -21,6 +23,7 @@
     color: rgb(73, 73, 73);
     font-size: 1.3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
 }
 
 #push-me-btn{
@@ -29,14 +32,17 @@
     box-shadow: 5px 5px 20px;
     color: rgb(92, 92, 92);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
     font-size: 1.2rem;
-    width: 8vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     height: 5vh;
 }
 
 #loreLink{
     padding: 3px;
-    width: 20vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     border: 3px solid gray;
     border-radius: 10px;
     color: rgb(66, 66, 66);
@@ -45,23 +51,33 @@
     box-shadow: 3px 3px 10px;
 }
 
-img{
+#background-img{
+    position: absolute;
+    
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(154, 252, 255);
+}
+
+
+
+#olimpia-img{
     border: 4px solid white;
     border-radius: 18px;
     box-shadow: 3px 3px 20px;
 }
 
-img:hover{
-    transition: 0.4s;
-    transform: scale(1.03);
-    box-shadow: 15px 15px 20px;
-}
 
-img:not(:hover){
-    transition: 0.4s;
-    transform: scale(1);
-    box-shadow: 3px 3px 20px;
-}
+
+
+
+
 
 #push-me-btn:hover{
     transition: 0.4s;
@@ -73,4 +89,16 @@ img:not(:hover){
     transition: 0.4s;
     transform: scale(1);
     box-shadow: 5px 5px 20px;
+}
+
+#olimpia-img:hover{
+    transition: 0.4s;
+    transform: scale(1.03);
+    box-shadow: 15px 15px 20px;
+}
+
+#olimpia-img:not(:hover){
+    transition: 0.4s;
+    transform: scale(1);
+    box-shadow: 3px 3px 20px;
 }
