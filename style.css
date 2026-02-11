@@ -39,7 +39,7 @@
     height: 5vh;
 }
 
-#loreLink{
+#lore-Link{
     padding-top: 0.3vh;
     padding-bottom: 0.3vh;
     padding-left: 0.5vw;
@@ -50,6 +50,9 @@
     background-color: white;
     text-decoration: none;
     box-shadow: 3px 3px 10px;
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
 }
 
 #info-div{
@@ -111,7 +114,6 @@ body{
     transform: scale(1.03);
     box-shadow: 10px 10px 20px;
 }
-
 #push-me-btn:not(:hover){
     transition: 0.4s;
     transform: scale(1);
@@ -123,9 +125,17 @@ body{
     transform: scale(1.03);
     box-shadow: 15px 15px 20px;
 }
-
 #olimpia-img:not(:hover){
     transition: 0.4s;
     transform: scale(1);
     box-shadow: 3px 3px 20px;
+}
+
+#lore-Link:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+#lore-Link:not(:hover){
+    transition: 0.3s;
+    transform: scale(1);
 }
