@@ -1,0 +1,47 @@
+#siteTitleForm{
+    display: flex;
+    justify-content: center;
+}
+
+#siteTitleDiv{
+    border: 5px solid rgb(161, 161, 161);
+    border-radius: 15px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: white;
+    box-shadow: 10px 10px 25px;
+}
+
+#siteTitle{
+    text-align: center;
+    color: rgb(92, 92, 92);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+.lore-text-div{
+    background-color: rgb(58, 58, 58, 0.8);
+    border-radius: 15px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.lore{
+    color: white;
+}
+
+.lore-title{
+    color: white;
+    font-style: italic;
+}
+
+#lores-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 45px;
+}
